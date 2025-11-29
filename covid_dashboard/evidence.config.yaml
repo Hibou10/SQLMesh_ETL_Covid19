@@ -81,5 +81,10 @@ plugins:
     "@evidence-dev/motherduck": { }
 
 
-defaultConnection: covid
+defaultConnection: cvd
+
+build:
+  ssr: false
+  prerender: false
+  spa: true
 

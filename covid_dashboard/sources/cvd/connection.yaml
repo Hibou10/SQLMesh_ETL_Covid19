@@ -1,8 +1,6 @@
-name: cvd
 type: duckdb
-options:
-  filename: db.db
-
-
-
-
+connection:
+  filename: ":memory:"
+  motherduck:
+    token: "${MD_TOKEN}"
+    database: "my_db"
