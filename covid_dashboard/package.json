@@ -1,9 +1,8 @@
-
 {
   "name": "my-evidence-project",
   "version": "0.0.1",
   "scripts": {
-    "build": "VITE_EVIDENCE_SPA=true evidence build",
+    "build": "cross-env VITE_EVIDENCE_SPA=true evidence build",
     "build:strict": "evidence build:strict",
     "dev": "evidence dev --open /",
     "test": "evidence build",
@@ -37,6 +36,8 @@
     "trim@<0.0.3": ">0.0.3",
     "sqlite3": "5.1.5",
     "axios": "^1.7.4"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
   }
 }
-
