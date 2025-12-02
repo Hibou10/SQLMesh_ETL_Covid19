@@ -38,6 +38,7 @@
     "axios": "^1.7.4"
   },
   "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
     "cross-env": "^10.1.0"
   }
 }
